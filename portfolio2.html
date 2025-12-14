@@ -1,0 +1,398 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portfolio — Mba Jonas | Créateur de sites web & Copywriter</title>
+  <meta name="description" content="Portfolio de Mba Jonas — Création de sites web, copywriting et maintenance. Basé au Cameroun. Tarifs en FCFA." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="portfolio2.css">
+  <link rel="stylesheet" href="../fontawesome-free-7.1.0-web/css/all.min.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Aller au contenu principal</a>
+ 
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <div class="logo" aria-label="Logo Ton Nom">MJ</div>
+        <div>
+          <h1>Mba Jonas</h1>
+          <div style="color:var(--muted);font-size:13px">Créateur de sites web • Copywriter • Yaoundé, Cameroun</div>
+        </div>
+      </div>
+
+      <nav aria-label="Navigation principale">
+        <a href="#services">Services</a>
+        <a href="#projets">Projets</a>
+        <a href="#tarifs">Tarifs</a>
+        <a href="#contact">Contact</a>
+        <a class="cta" href="#contact">Obtenir un devis</a>
+      </nav>
+
+      <div style="display:flex;gap:8px;align-items:center">
+        <button class="theme-toggle" id="themeToggle" title="Activer/désactiver le thème clair" aria-label="Changer le thème">
+          <span id="themeIcon">☀</span>
+        </button>
+        <button id="menuBtn" class="theme-toggle" title="Menu mobile" aria-label="Ouvrir le menu mobile">☰</button>
+      </div>
+    </header>
+
+    <!----------------------------------- HERO ----------------------------------------->
+    <main id="main-content">
+      <div class="hero fade-in">
+        <div class="card intro">
+          <h2>Je crée des sites web qui vendent — et des textes qui convertissent.</h2>
+          <p>Je suis Mba Jonas, créateur de sites web et copywriter basé à Yaoundé. Je conçois des sites rapides, responsives et optimisés pour convertir les visiteurs en clients.</p>
+
+          <div class="badges">
+            <div class="badge">WordPress</div>
+            <div class="badge">Elementor</div>
+            <div class="badge">Copywriting</div>
+            <div class="badge">SEO</div>
+            <div class="badge">Maintenance</div>
+          </div>
+
+          <div class="actions">
+            <a class="primary" href="#contact">Demander un devis</a>
+            <a class="secondary" href="#projets">Voir mes projets</a>
+          </div>
+
+          <hr style="border:none;border-top:1px solid rgba(255,255,255,0.03);margin:18px 0">
+
+          <div style="display:flex;gap:12px;flex-wrap:wrap">
+            <div style="min-width:160px">
+              <div style="color:var(--muted);font-size:13px">Tarif site vitrine</div>
+              <div style="font-weight:800;font-size:18px">50 000 FCFA</div>
+            </div>
+            <div style="min-width:160px">
+              <div style="color:var(--muted);font-size:13px">Abonnement maintenance</div>
+              <div style="font-weight:800;font-size:18px">15 000 FCFA / mois</div>
+            </div>
+          </div>
+        </div>
+
+        <aside class="summary card fade-in">
+          <h3>Résumé</h3>
+          <p style="color:var(--muted);margin:6px 0 12px 0">Création de sites web + copywriting. Paiement : Orange Money / MTN MoMo / virement.</p>
+          <div class="stat"><span>Clients satisfaits</span><strong>+24</strong></div>
+          <div class="stat"><span>Années d'expérience</span><strong>2</strong></div>
+          <div class="stat"><span>Projets terminés</span><strong>38</strong></div>
+          <div style="margin-top:12px">
+            <a class="btn-sm" href="#contact">Me contacter</a>
+            <a class="btn-sm" href="../CV.docx" id="downloadCv">Télécharger CV</a>
+          </div>
+        </aside>
+      </div>
+
+      <!-- SERVICES -->
+      <section id="services" class="fade-in">
+        <div style="display:flex;justify-content:space-between;align-items:end;margin-bottom:12px">
+          <h2>Services</h2>
+          <div style="color:var(--muted)">Offres claires et packs en FCFA</div>
+        </div>
+
+        <div class="grid-3">
+          <div class="service card">
+            <h4>Site vitrine</h4>
+            <p style="color:var(--muted);margin:0 0 10px">Site professionnel 4–6 pages, responsive, SEO de base.</p>
+            <div style="font-weight:800">50 000 FCFA</div>
+          </div>
+
+          <div class="service card">
+            <h4>Boutique en ligne</h4>
+            <p style="color:var(--muted);margin:0 0 10px">Installation WooCommerce / Shopify, paiement, produits.</p>
+            <div style="font-weight:800">80 000 – 150 000 FCFA</div>
+          </div>
+
+          <div class="service card">
+            <h4>Copywriting & Pages de vente</h4>
+            <p style="color:var(--muted);margin:0 0 10px">Pages optimisées pour convertir visiteurs en clients.</p>
+            <div style="font-weight:800">60 000 – 250 000 FCFA</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJETS -->
+      <section id="projets" class="fade-in">
+        <div style="display:flex;justify-content:space-between;align-items:end;margin-bottom:12px">
+          <h2>Projets récents</h2>
+          <div style="color:var(--muted)">Cliquez sur un projet pour voir les détails</div>
+        </div>
+
+        <div class="grid-3">
+          <article class="project" data-title="La Terrasse Gourmet" data-desc="Site restaurant avec menu, réservation et galerie. Design noir & doré. Copywriting inclus." data-img="">
+            <img src="../images/salon_jan.png" alt="">
+            <!--<img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='800', ><rect width='100%' height='100%' fill='%23081224'/><text x='50%' y='50%' font-size='40' fill='%23ffd88a' font-family='Arial' text-anchor='middle'>La Terrasse Gourmet</text></svg>" alt="La Terrasse Gourmet">-->
+            <h4>La Terrasse Gourmet</h4>
+            <div class="meta"><span style="color:var(--muted)">Restaurant — Yaoundé</span><a class="btn-sm" href="#" data-open aria-label="Voir les détails du projet La Terrasse Gourmet">Voir</a></div>
+          </article>
+
+          <article class="project" data-title="Cameroon Crafts" data-desc="E-commerce local pour vente d'artisanat. Paiement MoMo intégré, catalogue, gestion stock." data-img="">
+            <img src="../images/salon_fev.png" alt="">
+            <!--<img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='800'><rect width='100%' height='100%' fill='%23081224'/><text x='50%' y='50%' font-size='40' fill='%23ffd88a' font-family='Arial' text-anchor='middle'>Cameroon Crafts</text></svg>" alt="Cameroon Crafts">-->
+            <h4>Cameroon Crafts</h4>
+            <div class="meta"><span style="color:var(--muted)">E-commerce</span><a class="btn-sm" href="#" data-open aria-label="Voir les détails du projet Cameroon Crafts">Voir</a></div>
+          </article>
+
+          <article class="project" data-title="Cabinet Médical Sante+" data-desc="Site professionnel pour cabinet médical avec prise de RDV en ligne et pages d'information." data-img="">
+            <img src="../images/salon_nov.png" alt="">
+            <!--<img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='800'><rect width='100%' height='100%' fill='%23081224'/><text x='50%' y='50%' font-size='40' fill='%23ffd88a' font-family='Arial' text-anchor='middle'>Sante+</text></svg>" alt="Sante+">-->
+            <h4>Cabinet Médical Sante+</h4>
+            <div class="meta"><span style="color:var(--muted)">Santé</span><a class="btn-sm" href="#" data-open aria-label="Voir les détails du projet Cabinet Médical Sante+">Voir</a></div>
+          </article>
+        </div>
+      </section>
+
+      <!-- TARIFS -->
+      <section id="tarifs" class="fade-in">
+        <h2>Tarifs & packs</h2>
+        <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:12px">
+          <div style="flex:1;min-width:240px" class="card">
+            <h4>Pack Starter</h4>
+            <div style="color:var(--muted)">Site vitrine simple (1–3 pages)</div>
+            <div style="font-weight:800;margin-top:8px">50 000 FCFA</div>
+          </div>
+          <div style="flex:1;min-width:240px" class="card">
+            <h4>Pack Business</h4>
+            <div style="color:var(--muted)">Site 4–6 pages + SEO de base + 30 min formation</div>
+            <div style="font-weight:800;margin-top:8px">200 000 FCFA</div>
+          </div>
+          <div style="flex:1;min-width:240px" class="card">
+            <h4>Pack E-commerce</h4>
+            <div style="color:var(--muted)">Boutique complète + paiement + formation</div>
+            <div style="font-weight:800;margin-top:8px">350 000 – 700 000 FCFA</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TÉMOIGNAGES -->
+      <section id="temoignages" class="fade-in">
+        <h2>Témoignages</h2>
+        <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:12px">
+          <div class="testi card">
+            <p style="margin:0 0 8px">« Très professionnel — le site a augmenté nos réservations. »</p>
+            <div style="color:var(--muted)">— Chef, La Terrasse Gourmet</div>
+          </div>
+          <div class="testi card">
+            <p style="margin:0 0 8px">« Vitesse et design impeccable. »</p>
+            <div style="color:var(--muted)">— Fondatrice, Cameroon Crafts</div>
+          </div>
+          <div class="testi card">
+            <p style="margin:0 0 8px">« Bonne communication, livraison rapide. »</p>
+            <div style="color:var(--muted)">— Dr. Mbarga</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="fade-in">
+        <h2>Contact</h2>
+        <div class="contact-wrap" style="margin-top:12px">
+          <div class="card">
+            <form id="contactForm" action="#" onsubmit="handleForm(event)">
+              <input type="text" id="nom" placeholder="Ton nom complet" required aria-required="true">
+              <input type="email" id="email" placeholder="Email" required aria-required="true">
+              <input type="text" id="clientNom" placeholder="Nom de l'entreprise (optionnel)">
+              <select id="service" aria-label="Type de service demandé">
+                <option value="site">Création de site</option>
+                <option value="ecom">Boutique en ligne</option>
+                <option value="copy">Copywriting / Page de vente</option>
+                <option value="maintenance">Maintenance</option>
+              </select>
+              <textarea id="message" rows="5" placeholder="Décris ton projet (pages, budget, délai)" required aria-required="true"></textarea>
+              <div id="formMessage"></div>
+              <div style="display:flex;gap:10px;align-items:center; flex-wrap: wrap;">
+                <button type="submit">Envoyer la demande</button>
+                <a class="btn-sm" href="mailto:ton.email@example.com">Ou e-mail</a>
+                <a class="btn-sm" href="tel:+237600000000">Appel / WhatsApp</a>
+              </div>
+            </form>
+          </div>
+
+          <aside class="card">
+            <h4>Infos</h4>
+            <p style="color:var(--muted)">Basé à Yaoundé, je travaille avec des clients au Cameroun. Paiement en FCFA (Orange Money, MTN MoMo) ou virement.</p>
+            <div style="margin-top:12px">
+              <div style="font-weight:800">Téléphone</div>
+              <div style="color:var(--muted)">+237 670 29 96 15</div>
+              <div style="font-weight:800;margin-top:10px">Email</div>
+              <div style="color:var(--muted)">jonasmba78@Gmail.com</div>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      © <span id="year">2025</span> Mba Jonas — Création de sites web & Copywriting • Paiement : Orange Money / MTN MoMo / Virement.
+    </footer>
+  </div>
+
+  <!-- Modal template -->
+  <div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-describedby="modalDesc">
+    <div class="box">
+      <div style="display:flex;justify-content:space-between;align-items:center">
+        <h3 id="modalTitle">Titre</h3>
+        <button class="close" id="modalClose" aria-label="Fermer la fenêtre">✕</button>
+      </div>
+      <p id="modalDesc" style="color:var(--muted)"></p>
+      <div id="modalImg" style="margin-top:12px"></div>
+      <div style="margin-top:16px;display:flex;gap:10px; flex-wrap: wrap;">
+        <a class="primary" href="#" id="modalSite">Voir le site</a>
+        <a class="secondary" href="#contact">Demander un devis</a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Basic interactivity: theme toggle, modal, mobile menu simulation, form handling
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Theme toggle (persist in localStorage)
+    const themeToggle = document.getElementById('themeToggle');
+    const themeIcon = document.getElementById('themeIcon');
+    const body = document.body;
+    const savedTheme = localStorage.getItem('theme');
+   
+    function updateThemeIcon(isLight) {
+      themeIcon.textContent = isLight ? '🌙' : '☀';
+    }
+   
+    if(savedTheme === 'light') {
+      body.classList.add('light');
+      updateThemeIcon(true);
+    } else {
+      updateThemeIcon(false);
+    }
+   
+    themeToggle.addEventListener('click', () => {
+      const isLight = body.classList.toggle('light');
+      localStorage.setItem('theme', isLight ? 'light' : 'dark');
+      updateThemeIcon(isLight);
+    });
+
+    // Modal open
+    document.querySelectorAll('[data-open]').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.preventDefault();
+        const project = btn.closest('.project');
+        const title = project.getAttribute('data-title');
+        const desc = project.getAttribute('data-desc');
+        const img = project.querySelector('img').src;
+        document.getElementById('modalTitle').textContent = title;
+        document.getElementById('modalDesc').textContent = desc;
+        const mimg = document.getElementById('modalImg');
+        mimg.innerHTML = '<img src="'+img+'" style="width:100%;border-radius:8px" alt="'+title+'"/>';
+        document.getElementById('modalSite').href = '#';
+        document.getElementById('modal').style.display = 'flex';
+        // Focus management for accessibility
+        document.getElementById('modalClose').focus();
+      });
+    });
+   
+    document.getElementById('modalClose').addEventListener('click', () => {
+      document.getElementById('modal').style.display = 'none';
+    });
+   
+    document.getElementById('modal').addEventListener('click', (e) => {
+      if(e.target === document.getElementById('modal')) {
+        document.getElementById('modal').style.display = 'none';
+      }
+    });
+   
+    // Close modal with Escape key
+    document.addEventListener('keydown', (e) => {
+      if(e.key === 'Escape' && document.getElementById('modal').style.display === 'flex') {
+        document.getElementById('modal').style.display = 'none';
+      }
+    });
+
+    // Mobile menu button: just scroll to contact for demo
+    document.getElementById('menuBtn').addEventListener('click', () => {
+      window.location.href = '#contact';
+    });
+
+    // Contact form handler: opens default mail client with prefilled content
+    function handleForm(e){
+      e.preventDefault();
+     
+      // Show loading state
+      const submitBtn = e.target.querySelector('button[type="submit"]');
+      const originalText = submitBtn.textContent;
+      submitBtn.textContent = 'Envoi en cours...';
+      submitBtn.disabled = true;
+     
+      // Simulate network delay for better UX
+      setTimeout(() => {
+        const nom = document.getElementById('nom').value;
+        const email = document.getElementById('email').value;
+        const entreprise = document.getElementById('clientNom').value || '—';
+        const service = document.getElementById('service').value;
+        const message = document.getElementById('message').value;
+        const subject = encodeURIComponent('Demande de devis — ' + service + ' — ' + nom);
+        const body = encodeURIComponent(
+          "Nom : " + nom + "\\n" +
+          "Email : " + email + "\\n" +
+          "Entreprise : " + entreprise + "\\n" +
+          "Service : " + service + "\\n\\n" +
+          "Message :\\n" + message
+        );
+       
+        // Show success message
+        const formMessage = document.getElementById('formMessage');
+        formMessage.innerHTML = '<div class="success-message">Votre message a été envoyé avec succès !</div>';
+       
+        // Reset button
+        submitBtn.textContent = originalText;
+        submitBtn.disabled = false;
+       
+        // mailto (ouvre le client mail) ; le client peut copier et utiliser WhatsApp sinon
+        window.location.href = "mailto:ton.email@example.com?subject="+subject+"&body="+body;
+       
+        // Clear form
+        document.getElementById('contactForm').reset();
+       
+        // Remove success message after 5 seconds
+        setTimeout(() => {
+          formMessage.innerHTML = '';
+        }, 5000);
+      }, 1000);
+    }
+
+    // Download CV button (creates a simple text file and triggers download)
+    document.getElementById('downloadCv').addEventListener('click', (e) => {
+      e.preventDefault();
+      const cvText = "Ton Nom\\nCréateur de sites web & Copywriter\\nDouala, Cameroun\\nEmail: ton.email@example.com\\nTel: +237 6X XX XX XX\\n\\nCompétences:\\n- WordPress, Elementor\\n- Copywriting\\n- SEO de base\\n- Gestion & maintenance de sites\\n\\nProjets clés:\\n- La Terrasse Gourmet (site restaurant)\\n- Cameroon Crafts (e-commerce)\\n";
+      const blob = new Blob([cvText], {type: 'text/plain;charset=utf-8'});
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'CV-Ton-Nom.txt';
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      URL.revokeObjectURL(url);
+    });
+   
+    // Animation on scroll
+    function checkVisibility() {
+      const elements = document.querySelectorAll('.fade-in');
+      elements.forEach(el => {
+        const rect = el.getBoundingClientRect();
+        const isVisible = (rect.top <= window.innerHeight * 0.85);
+        if (isVisible) {
+          el.classList.add('visible');
+        }
+      });
+    }
+   
+    // Initial check and add scroll listener
+    window.addEventListener('load', checkVisibility);
+    window.addEventListener('scroll', checkVisibility);
+  </script>
+</body>
+</html>
